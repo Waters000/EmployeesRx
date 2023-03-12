@@ -50,48 +50,30 @@
             <!--Wrap every h2 with a class of "section title" in this div-->
             <div class="flex-row">
             <h2 class="section-title primary-border">What We Do ℞<br>
-                <button onClick="businessBtn()" class="businessBtn">Business </button> <button onClick="individualBtn()" class="individualBtn">Individual</button>
-            <img  id="pricingImage" src="./assets/images/pricing.png" alt=""/></h2>
+                <button onClick="businessBtn()" class="pricingBtn">Business </button> <button onClick="individualBtn()" class="pricingBtn">Individual</button>
+            <img  id="pricingImage"  src="./assets/images/busPricing.png"  alt=""/><br>
+            <img  id="indivPricing"  src="./assets/images/indivPricing.jpg"  alt=""/></h2>
             </div>
             <div class="flex-row">
                
             <p>
-                Associated with KonnectMd, we re-created the health care system to offer low prescription cost and virtual healthcare options.
+                Associated with KonnectMd, we re-created the health care system to offer low prescription cost and virtual healthcare options.<br>
+                <input  onkeyup="searchFake()" class="searchPrescriptions" placeholder="Look up your prescriptions">
             </p>
-            </div>
-
-            <input  onkeyup="searchPrescriptions()" class="searchPrescriptions" placeholder="Look up your prescriptions">
-                <!-- The Modal -->
+        </div>
+        
+        <img  class="drugbanner"  src="./assets/images/drugbanner.png"  alt=""/>
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Some text in the Modal..</p>
+      <div class="ml-embedded" data-form="lLnHjN"></div>
     </div>
   
   </div>
-                <p>ADHD
-                    Atomoxetine 18mg Capsules [Max Qty: 90] {STRATTERA}
-                    Atomoxetine 25mg Capsules [Max Qty: 90] {STRATTERA}
-                    Atomoxetine 100mg Capsules [Max Qty: 90] {STRATTERA}
-                    Guanfacine ER 24HR 1mg Tablets [Max Qty: 90] {INTUNIV}
-                    Guanfacine ER 24HR 2mg Tablets [Max Qty: 90] {INTUNIV}
-                    Guanfacine ER 24HR 3mg Tablets [Max Qty: 90] {INTUNIV}
-                    Guanfacine ER 24HR 4mg Tablets [Max Qty: 90] {INTUNIV}
-                    Allergy/Antihistamines
-                    Fluticasone Propionate 16gm 50mcg/spray Nasal Spray
-                    [Max Qty: 48] {FLONASE}
-                    Ipratropium Bromide 0.06% 15mL 0.06% (42mcg/Spray) Nasal Spray
-                    [Max Qty: 45] {ATROVENT}
-                    Alzheimer’s/Dementia
-                    Donepezil 5mg Tablets [Max Qty: 90] {ARICEPT}
-                    Donepezil 10mg Tablets [Max Qty: 90] {ARICEPT}
-                    Donepezil 23mg Tablets [Max Qty: 90] {ARICEPT}
-                    Memantine 10mg Tablets [Max Qty: 90] {NAMENDA}
-                    Anti-anxiety
-                   [</p>
+                
             </div>
             
         </section>
@@ -149,7 +131,7 @@
                     <h3>Step 4</h3>
                     <div class="step-info">
                         <div class="step-img">
-                <img src="./assets/images/step-4.svg" alt="" />
+                <img src="./assets/images/cardFront.png" alt="" />
                 </div>
                 <div class="step-text">
                 <h4>See Results.</h4>
@@ -171,7 +153,7 @@
                 <img src="./assets/images/testimonial-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
                 <div class="trainer-bio">
                     <h3 class="trainer-name">Miss Stephens</h3>
-                   <h4 class="trainer-role">Speed / Strength</h4>
+                   <h4 class="trainer-role">Incredible program!</h4>
                     <p>I can get the healthcare I need from the comfort of my home and my medications are mailed directly to my home.  Very convenient, low cost and just a great program.  Thank you!</p>
                 </div>
             </article>
@@ -180,7 +162,7 @@
                 <img src="./assets/images/testimonials-2.jpg" alt="Joanna Gill cooling off" />
                 <div class="trainer-bio">
                     <h3 class="trainer-name">Mr. Gill</h3>
-                    <h4 class="trainer-role">Endurance</h4>
+                    <h4 class="trainer-role">I love the No Cost prescriptions.</h4>
                     <p>Wow...have to say how impressed I am to get all my prescriptions with no charge.  I can easily talk to my doctor during a break in my work schedule without missing any meetings.</p>
                 </div>
             </article>
@@ -189,7 +171,7 @@
                 <img src="./assets/images/testimonial-3.jpg" alt="Harry Smith wearing a headban" />
             <div class="trainer-bio">
                 <h3 class="trainer-name">Mr. Chen</h3>
-                <h4 class="trainer-role">Strength</h4>
+                <h4 class="trainer-role">Virtutal healthcare on Demand.</h4>
                 <p>Im always on the go, so setting a time to go to the doctors office is very stressful to me.  This approach is super easy and Im so glad my employer offers this great program.</p>
             </div>
             </article>
@@ -229,7 +211,7 @@
             <h2>❤️ Made with love by EmployeesRx.</h2>
             <div>
                 <a href="./privacy-policy.html">Read our Privacy Policy</a><br />
-                &copy; 2023 Run Buddy, Inc.
+                &copy; 2023 EmployeesRx, Inc.
             </div>
         </footer>
 <!-- MailerLite Universal -->
@@ -242,6 +224,6 @@
 </script>
 <!-- End MailerLite Universal -->
 <script src="./assets/js/home.js"></script>
-    </body>
+    </body> 
 
 </html>

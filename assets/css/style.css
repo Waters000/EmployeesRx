@@ -556,18 +556,80 @@ body p {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
-  .pricingImage {
+.drugbanner {
     display: block;
-    width: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  #pricingImage {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .searchPrescriptions {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(34, 0, 255);
+    border-radius: 4px;
+    background-color: #a4fedd;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: width 0.4s ease-in-out;
+
+  }
+
+  .pricingBtn {
+      background-color: #c2fbd7;
+      border-radius: 100px;
+      box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+      color: green;
+      cursor: pointer;
+      display: inline-block;
+      font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+      padding: 7px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .pricingBtn:hover {
+      box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+      transform: scale(1.05) rotate(-1deg);
+    }
+
+  
+
+  #indivPricing{
+    display: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* Modal Content/Box */
   .modal-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%;
+     /* width: 30%;Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
@@ -584,6 +646,15 @@ body p {
     text-decoration: none;
     cursor: pointer;
   }
+
+  .crypto-div {
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    columns: auto;
+   
+    margin: 20px;
+}
 
 /*Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {

@@ -6,6 +6,7 @@ var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
 var pricingImage = document.getElementById("pricingImage");
+var indivPricing = document.getElementById("indivPricing");
 
 
 
@@ -22,18 +23,20 @@ window.onclick = function(event) {
   }
 }
 
-function searchPrescriptions() {
+function searchFake() {
     modal.style.display = "block";
     return
   }
 
 
   function businessBtn() {
-    pricingImage.style.display = "none"
-    alert("Business Button clicked")
+    pricingImage.style.display = "block"
+    indivPricing.style.display = "none"
+   
     }
 
     function individualBtn() {
-        alert("Indiviual Button clicked")
+        pricingImage.style.display = "none"
+        indivPricing.style.display = "block"
         }
 
