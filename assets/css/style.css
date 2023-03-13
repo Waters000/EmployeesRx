@@ -571,6 +571,12 @@ body p {
    
   }
 
+
+  #presscritions-list {
+    display: none;
+  }
+  
+
   .searchPrescriptions {
     width: 50%;
     padding: 12px 20px;
