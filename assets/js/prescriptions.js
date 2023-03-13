@@ -13,7 +13,7 @@ function searchPrescriptions() {
       h2 = divs[i].getElementsByTagName("p")[0];
    //   console.log("line 14: " + h2)
       txtValue = h2.innerText;
-      console.log(txtValue)
+    //  console.log(txtValue)
   //    txtValue = h2.toString();
      console.log("textValue" + txtValue)
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
