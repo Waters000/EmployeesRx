@@ -626,6 +626,20 @@ body p {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
+  .modal-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+     /* width: 30%;Could be more or less, depending on screen size */
+  }
+  
+
 .drugbanner {
     display: block;
     width: 70%;
@@ -758,7 +772,7 @@ body p {
     margin: 20px;
 }
 
-/*Media query for mobile phones and smaller */
+/*SMART PHONE ****  Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
@@ -767,6 +781,28 @@ body p {
         width: 95%;
      
     }
+
+
+
+    .modal-content {
+        
+    width: 100%;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
     .intro p {
     line-height: 1.7;
     color: black;
