@@ -5,6 +5,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.o"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <title>Employees Rx</title>
     </head>
    
@@ -19,13 +20,13 @@
             <ul>
                 <!--List item element-->
                 <li>
-                    <a href="#what-we-do">What We Do</a>
+                    <a href="#what-we-do">Pricing</a>
                 </li>
                 <li>
-                    <a href="#what-you-do">What You Do</a>
+                    <a href="/prescriptions.html">Search Rx</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#moreInfo">More Info</a>
                 </li>
                 <li>
                     <a href="#reach-out">Reach Out</a>
@@ -44,13 +45,18 @@
             </div>
             
       
-            
+   <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/cwaters001/15-min-on-employeesrx', text: "Quick Connect", color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->
             
             
             <div class="flex-row">
                
             <p class="searchText">
                 <u>Search Your prescriptions Rx </u>below: <br>
+                <span><em>($0 Copays available)</em></span>
                 <input id="search" onkeyup="searchPrescriptions()" class="searchPrescriptions" placeholder="Search Your prescriptions Now!">
             </p>
             <div>
@@ -1700,14 +1706,14 @@ Antivirals -->
 
 
        <div>
-        <h2 class="section-title primary-border">What We Do ℞<br> 
+        <h2 class="section-title primary-border">Pricing<br> 
                <button onClick="businessBtn()" class="pricingBtn">Business </button> <button onClick="individualBtn()" class="pricingBtn">Individual</button>
            <img  id="pricingImage"  src="./assets/images/busPricing.png"  alt=""/><br>
            <img  id="indivPricing"  src="./assets/images/indivPricing.jpg"  alt=""/></h2>
            </div>
 
         </div>
-        <img  class="drugbanner"  src="./assets/images/drugbanner.png"  alt=""/>
+        <img id="moreInfo" class="drugbanner"  src="./assets/images/drugbanner.png"  alt=""/>
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
