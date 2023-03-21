@@ -10,7 +10,7 @@ var specialWordEl = document.getElementById("specialWord");
 
 
 
-var specialWord = ["Future ", "Start | Cancel anytime ", "Netflix ", "Best ", "Solution ", "New Way " ]
+var specialWord = ["Future ", "Netflix ", "Best ", "Solution ", "New Way ", "Start | Cancel anytime "]
 var index = 0;
 
 function spcecialWord() {
