@@ -1,14 +1,15 @@
-# Run Buddy
+# EmployeesRx
 
 ## Purpose
-A website that offers fitness training services.
+
 
 ## Built with
 *HTML
 *CSS
+*JS
 
 ## Website
-https://waters000.github.io/run-buddy/
+https://employeesrx.com
 
 ## Contribution
 Made with ❤️ by Chris Waters
